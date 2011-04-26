@@ -7,20 +7,11 @@ class ImportProductSettings
     #This is accessed in the import method using COLUMN_MAPPINGS['field'] for niceness and readability
     #TODO this could probably be marked up in YML
     COLUMN_MAPPINGS = {
-      'SKU' => 5,
-      'Name' => 1,
+      'SKU' => 0,
+      'Name' => 0,
       'Master Price' => 2,
-      'Cost Price' => 7,
-      'Weight' => 4,
-      'Height' => 0,
-      'Width' => 6,
-      'Depth' => 3,
-      'Image Main' => 8,
-      'Image 2' => 9,
-      'Image 3' => 10,
-      'Image 4' => 11,
-      'Description' => 12,
-      'Category' => 13
+      'Cost Price' => 2,      
+      'Description' => 1,
     }
 
     #Where are you keeping your master images?
